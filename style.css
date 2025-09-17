@@ -151,3 +151,29 @@ ul#historique li.copied {
   background-color: #cce5ff;
   font-weight: bold;
 }
+.page-layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.site-content {
+  flex: 1 1 500px;
+  max-width: 600px;
+}
+
+.pub-zone {
+  flex: 0 0 300px;
+  max-width: 300px;
+}
+
+.ad-container {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+}
+
