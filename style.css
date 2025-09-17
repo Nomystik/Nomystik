@@ -177,3 +177,9 @@ ul#historique li.copied {
   border-radius: 8px;
 }
 
+/* Responsive : cacher les pubs sur mobile */
+@media (max-width: 768px) {
+  .pub-zone {
+    display: none;
+  }
+}
